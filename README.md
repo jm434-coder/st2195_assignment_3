@@ -15,3 +15,4 @@ This assignment is to learn how to use *SQLite Database*
 3. in question 5, because it needs to be a flot, i found it easier to just multiply by 1.0 to force it, insted on changing the variables to floats. That always works, or are there situations where it is better to change to float
 4. the enconding of 2001 and 2002 is different, and i could not find the right one to use (not even on notepad++) so there might be wrong answers
 5. I assumed that we were still looking for the same options from the practice exercise in all the question
+6. Regarding pyhton: i added chunksize to the ontime parts, because of memory issues. What is better memorywise and timewise: add each ontime_year separated and appending to ontime, or first concatening everything and then calling the to_sql function
